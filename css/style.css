@@ -23,9 +23,10 @@ html {
 
 .class-types {
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 70%;
+  justify-content: center;
+  margin-inline: auto;
+  width: 100%;
+  gap: 1%  ;
 }
 
 span {
@@ -49,6 +50,12 @@ h2 {
   justify-content: center;
   font-size: 1.5rem;
 }
+
+.starting-equip {
+  grid: 1/1
+}
+
+
 
 #details
 p {
